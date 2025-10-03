@@ -11,7 +11,7 @@ const PortofolioItem = ({ image, title, description}: PortofolioItemProps) => {
         <div className="border border-[var(--primaryBlue)] flex flex-col">
             <div className="border-b border-[var(--primaryBlue)] bg-[var(--primaryBlue)] flex flex-col items-center justify-center p-5">
                 <div className="w-full h-40 flex items-center justify-center">
-                    <Image src={image} alt={title} width={800} height={160} className="w-full h-full object-cover"  />
+                    <Image src={image} alt={title} width={800} height={160} className="w-full h-full object-cover object-top"  />
                 </div>
             </div>
             

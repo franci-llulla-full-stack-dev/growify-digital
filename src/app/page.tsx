@@ -17,10 +17,10 @@ export default function Home() {
       <hr className="border border-[var(--primaryBlue)] my-10" />
       <Portofolio />
       <hr className="border border-[var(--primaryBlue)] my-10" />
-      <Testimonials />
-      <hr className="border border-[var(--primaryBlue)] my-10" />
+      {/* <Testimonials />
+      <hr className="border border-[var(--primaryBlue)] my-10" /> */}
       <Contact />
-      <hr className="border border-[var(--primaryBlue)] my-10" />
+      <hr className="border border-[var(--primaryBlue)]" />
       <Footer />
     </div>
   );

@@ -14,14 +14,14 @@ const Portofolio = () => {
                     description="A scalable e-commerce platform with integrated payment solutions and user-friendly design."
                 />
                 <PortofolioItem 
-                    image="/project2.png"
-                    title="Brand Identity"
-                    description="Comprehensive branding package including logo design, color schemes, and brand guidelines."
+                    image="/portofolio-personal-branding.png"
+                    title="Personal Branding"
+                    description="A comprehensive branding package including logo design, brand guidelines, and marketing materials."
                 />
                 <PortofolioItem 
-                    image="/project3.png"
-                    title="Web Application"
-                    description="A responsive web application built with modern frameworks and best practices."
+                    image="/portofolio-booking.png"
+                    title="Booking System"
+                    description="A custom booking system with real-time availability, user accounts, and automated notifications."
                 />
             </div>
             <div className="flex justify-center pt-10">
