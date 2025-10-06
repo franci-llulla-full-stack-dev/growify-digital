@@ -2,7 +2,7 @@ import Testimonial from "./Testimonial";
 
 const Testimonials = () => {
     return (
-        <div className="flex flex-col px-5 bg-[var(--background)]">
+        <div className="grid grid-cols-1 px-5 bg-[var(--background)]">
              <h1 className="font-bold text-[24px]">
                 Testimonials
             </h1>

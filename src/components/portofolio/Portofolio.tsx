@@ -1,9 +1,9 @@
 import PortofolioItem from "./PortofolioItem";
-import Button from "./Button";
+import Button from "../Button";
 
 const Portofolio = () => {
     return (
-        <div className="flex flex-col px-5 bg-[var(--background)]">
+        <div className="grid grid-cols-1 px-5 lg:px-20 xl:px-30 pb-10 bg-[var(--background)]">
             <h1 className="font-bold text-[24px]">
                 Our Work
             </h1>
@@ -24,7 +24,7 @@ const Portofolio = () => {
                     description="A custom booking system with real-time availability, user accounts, and automated notifications."
                 />
             </div>
-            <div className="flex justify-center pt-10">
+            <div className="justify-self-center pt-10">
                 <Button link="" text="View more" />
             </div>
         </div>
