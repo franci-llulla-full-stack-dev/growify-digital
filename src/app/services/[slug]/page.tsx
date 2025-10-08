@@ -75,11 +75,12 @@ const servicesList = [
 ];
 
 interface Props {
-    params: { slug: string };
+    params: Promise<{ slug: string }>;
 }
 
-export default function ServicePage({ params }: Props) {
-    const service = servicesList.find(s => s.id === params.slug);
+export default async function ServicePage({ params }: Props) {
+    const { slug } = await params;
+    const service = servicesList.find(s => s.id === slug);
     if (!service) return notFound();
     return (
         <div className="text-center grid grid-cols-1 justify-items-center py-10 px-5 lg:px-20 xl:px-30">
